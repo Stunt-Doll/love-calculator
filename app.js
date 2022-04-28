@@ -26,7 +26,8 @@ function love() {
   }
 }
 //Event Listener
-document.querySelector("#calculateLoveBtn").addEventListener("click", () => {
+document.querySelector("form").addEventListener("submit", (e) => {
+  e.preventDefault();
   love();
 });
 
