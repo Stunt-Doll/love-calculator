@@ -19,7 +19,6 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
   }
   
@@ -105,6 +104,10 @@
       background-position: center; /* Background image is centered vertically and horizontally at all times */
       background-repeat: no-repeat; /* Background image doesn’t tile */
       background-size: contain; /* This is what makes the background image rescale based on the container’s size */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
     h1 {
       font-size: 6rem;
