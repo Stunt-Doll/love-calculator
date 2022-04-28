@@ -101,7 +101,7 @@
   
   @media (min-width: 640px) {
     .container {
-      background-image: url(../images/love-calculator-background.png); /* Location of the image */
+      background-image: url(love-calculator-background.png); /* Location of the image */
       background-position: center; /* Background image is centered vertically and horizontally at all times */
       background-repeat: no-repeat; /* Background image doesn’t tile */
       background-size: contain; /* This is what makes the background image rescale based on the container’s size */
