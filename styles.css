@@ -41,7 +41,7 @@ h1 {
   align-items: center; /* centers the output on the vertical axis */
   flex-direction: column; /* arranges the output text in a column */
   height: 30vh;
-  background-image: url(../images/love-calculator-background-transparent1.png); /* Location of the image */
+  background-image: url(love-calculator-background-transparent1.png); /* Location of the image */
   background-position: center; /* Background image is centered vertically and horizontally at all times */
   background-repeat: no-repeat; /* Background image doesn’t tile */
   background-size: contain; /* This is what makes the background image rescale based on the container’s size */
